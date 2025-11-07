@@ -24,10 +24,10 @@ def get_db_connection():
 @app.route('/')
 def index():
     
-    return "<h1>Welcome to My Blog</h1>"
+    return "<h1>Welcome to Marco's Blog</h1>"
 
 
 # route to create a post
 
 
-app.run()
+app.run(port=5008)
